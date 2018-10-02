@@ -1,0 +1,29 @@
+.bg-black {
+  background-color: #1c1b19;
+  color: #fff; }
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase; }
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap column;
+  height: 75vh;
+  background: url("../img/banner2.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(40%);
+  font-family: 'Bad Script', cursive; }
+  .jumbotron .title1 {
+    transform: rotate(-20deg);
+    padding: 50px;
+    border: 5px solid #fff;
+    border-radius: 50%; }
+
+.more {
+  text-align: center; }
+  .more h2 {
+    margin: 20px 0; }
