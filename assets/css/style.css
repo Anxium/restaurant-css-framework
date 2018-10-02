@@ -11,7 +11,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-flow: wrap column;
-  height: 75vh;
+  height: 60vh;
   background: url("../img/banner2.jpg");
   background-size: cover;
   background-position: center;
@@ -26,4 +26,4 @@ nav {
 .more {
   text-align: center; }
   .more h2 {
-    margin: 20px 0; }
+    margin: 40px 0; }
