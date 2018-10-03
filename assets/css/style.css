@@ -36,7 +36,7 @@ nav {
       margin: 20px 0;
       text-align: center; }
     .service .more .separator {
-      border-bottom: 2px solid #d39539;
+      border-bottom: 2px solid #98785c;
       width: 150px;
       margin: 0 auto 40px auto; }
     .service .more .img {
@@ -65,11 +65,16 @@ nav {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 25px;
     padding: 50px 35px;
-    min-height: 199px;
-    max-height: 199px; }
+    min-height: 179px;
+    max-height: 179px; }
   .citation .auteur {
     display: block;
     text-transform: uppercase;
     font-weight: 600;
     margin: 60px 0;
     font-size: 1.2em; }
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-family: 'Anton', sans-serif; }
