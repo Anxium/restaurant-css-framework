@@ -11,10 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <title>Bootstrap training</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="col-10 offset-1">
+        <div class="col-md-10 offset-1">
             <div class="row">
                 <a class="navbar-brand" href="#page-top">Carolo Coffee  <i class="fas fa-coffee"></i></a>
                 <ul class="navbar-nav ml-auto">
@@ -43,28 +46,57 @@
         <p class="display-4">- Since 2018 -</p>
     </header>
 
-    <section class="bg-black">
+    <section class="bg-black service">
         <div class="container">
             <div class="row more">
-                <h2 class="display-4 col-12">Nos services</h2>
+                <h2 class="display-4 col-md-12">Nos services</h2>
+                <div class="separator"></div>
+                <div class="row more">
+                    <div class="col-md-7 offset-1 text-right">
+                        <h3>Un service rapide de qualité</h3>
+                        <p>Nos employés vous servent le plus rapidement possible dans la joie et la bonne humeur pour un café de qualité.</p>
+                    </div>
+                    <img class="col-md-4 img" src="assets/img/service.jpg" alt="service img">
+                </div>
+                <div class="row more">
+                    <img class="col-md-4 img" src="assets/img/netflix.jpg" alt="netflix img">
+                    <div class="col-md-7">
+                        <h3>Un coin gaming & Netflix</h3>
+                        <p>Venez vous détendre avec votre café et votre croissant devant une bonne série signée Netflix ou bien devant fortnite.</p>
+                    </div>
+                </div>
+                <div class="row more">
+                    <div class="col-md-7 offset-1 text-right">
+                        <h3>Un menu sur mesure</h3>
+                        <p>Vous composez votre propre menu, et votre propre café, à votre guise.</p>
+                        <p>Le meilleur café, c'est le vôtre.</p>
+                    </div>
+                    <img class="col-md-4 img" src="assets/img/menu.jpg" alt="menu img">
+                </div>
             </div>
-            <div class="row more">
-                <div class="col-4">
-                    <!--Image à venir-->
-                    <h3>Un service rapide de qualité</h3>
-                    <p>Nos employés vous servent le plus rapidement possible dans la joie et la bonne humeur pour un café de qualité.</p>
-                </div>
-                <div class="col-4">
-                    <!--Image à venir-->
-                    <h3>Un coin gaming & Netflix</h3>
-                    <p>Venez vous détendre avec votre café et votre croissant devant une bonne série signée Netflix ou bien devant fortnite.</p>
-                </div>
-                <div class="col-4">
-                    <!--Image à venir-->
-                    <h3>Un menu sur mesure</h3>
-                    <p>Vous composez votre propre menu, et votre propre café, à votre guise.</p>
-                    <p>Le meilleur café, c'est le vôtre.</p>
-                </div>
+        </div>
+    </section>
+
+    <section class="citation">
+        <i class="fas fa-quote-right iconecit fa-3x"></i>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <cite class="col-md-8 offset-2 citation_p">Cet endroit est splendide, l'ambiance est agréable. On s'y sent comme chez soi.</cite>
+                <p class="auteur">Nathan</p>
+            </div>
+            <div class="carousel-item">
+                <cite class="col-md-8 offset-2 citation_p">L'innovation arrive à Charleroi, avec des cafés qui vous redonne de l'énergie, de la vigueur, de la force, bref, tous les efets du viagra! Je vous le recommande vivement! ;)</cite>
+                <p class="auteur">Ruben</p>
+            </div>
+            <div class="carousel-item">
+                <cite class="col-md-8 offset-2 citation_p">NANI ?!?! Un café aussi bien à Charleroi ?!</cite>
+                <p class="auteur">Maxime</p>
             </div>
         </div>
     </section>

@@ -3,7 +3,7 @@
   color: #fff; }
 
 nav {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Anton', sans-serif;
   text-transform: uppercase; }
 
 .jumbotron {
@@ -23,7 +23,53 @@ nav {
     border: 5px solid #fff;
     border-radius: 50%; }
 
-.more {
+.service {
+  font-family: sans-serif; }
+  .service .more {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+    .service .more:last-child {
+      margin: 0;
+      padding-bottom: 20px; }
+    .service .more h2 {
+      margin: 20px 0;
+      text-align: center; }
+    .service .more .separator {
+      border-bottom: 2px solid #d39539;
+      width: 150px;
+      margin: 0 auto 40px auto; }
+    .service .more .img {
+      display: block;
+      filter: sepia(60%); }
+    .service .more .text-right {
+      text-align: right; }
+
+.citation {
+  height: 60vh;
+  background: url("../img/slide3.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap column;
   text-align: center; }
-  .more h2 {
-    margin: 40px 0; }
+  .citation .iconecit {
+    margin-bottom: 80px; }
+  .citation .citation_p {
+    display: block;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 1.4em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    padding: 50px 35px;
+    min-height: 199px;
+    max-height: 199px; }
+  .citation .auteur {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 60px 0;
+    font-size: 1.2em; }
