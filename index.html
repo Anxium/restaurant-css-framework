@@ -42,8 +42,10 @@
     </nav>
 
     <header class="jumbotron jumbotron-fluid bg-black m-0">
-        <h1 class="display-1 title1">Carolo<br>Coffee</h1>
-        <p class="display-4">- Since 2018 -</p>
+        <div class="logo">
+            <h1 class="display-1 title1">Carolo<br>Coffee</h1>
+            <p class="display-4">- Since 2018 -</p>
+        </div>
     </header>
 
     <section class="bg-black service">
@@ -68,8 +70,7 @@
                 <div class="row more">
                     <div class="col-md-7 offset-1 text-right">
                         <h3>Votre menu sur mesure</h3>
-                        <p>Vous composez votre propre menu, et votre propre café, à votre guise.</p>
-                        <p>Le meilleur café, c'est le vôtre.</p>
+                        <p>Vous composez votre propre menu, et votre propre café, à votre guise. Le meilleur café, c'est le vôtre.</p>
                     </div>
                     <img class="col-md-4 img" src="assets/img/menu.jpg" alt="menu img">
                 </div>
@@ -78,7 +79,8 @@
     </section>
 
     <section class="citation">
-        <h2><i class="fas fa-quote-right iconecit fa-2x"></i></h2>
+        <i class="fas fa-quote-right iconecit fa-3x"></i>
+        <h2 class="title2">Commentaires</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -102,20 +104,63 @@
         </div>
     </section>
 
-    <footer class="footer bg-black">
-        <div class="row">
-            <div class="col-4 theme_by">
-                Theme by Anxium
+    <section class="articles bg-black pb-4">
+        <div class="container-fluid text-center">
+            <h2 class="display-4 col-md-12 pt-4 pb-2">News</h2>
+            <div class="separator"></div>
+            <div class="row d-flex justify-content-center">
+                <div class="card-deck col-md-10 d-flex justify-content-center">
+                    <div class="card col-md-3 bg-dark">
+                      <img class="card-img-top" src="assets/img/halloween.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Event Halloween</h5>
+                        <p class="card-text">Durant la journée du 31 Octobre, venez déguiser à un de nos cafés, et vous recevrez un pain au chocolat ou un croissant gratuit si vous commandez un café. </p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Posté il y a 48 minutes</small>
+                      </div>
+                    </div>
+                    <div class="card col-md-3 bg-dark">
+                      <img class="card-img-top" src="assets/img/stage.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Le latte art</h5>
+                        <p class="card-text">Vous avez toujours rêvé du faire du latte art comme nos serveurs? Venez vous joindre à nous le 9 ou 10 Novembre dans nos restaurants pour vous y entrainer et découvrir nos astuces!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Posté il y a 2 jours</small>
+                      </div>
+                    </div>
+                    <div class="card col-md-3 bg-dark">
+                      <img class="card-img-top" src="assets/img/espresso.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Espressos</h5>
+                        <p class="card-text">Une nouvelle machine espresso est disponible. Venez la découvrir par vous-même au Carolo Coffee !</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Posté il y a 5 jours</small>
+                      </div>
+                    </div>
+                  </div>
             </div>
-            <div class="col-4 social_link">
-                <i class="fab fa-facebook-square fa-2x"></i>
-                <i class="fab fa-twitter-square fa-2x"></i>
-                <i class="fab fa-instagram fa-2x"></i>
-                <i class="fab fa-linkedin fa-2x"></i>
-                <i class="fab fa-github-square fa-2x"></i>
-            </div>
-            <div class="col-4 copyright">
-                &copy; Copyright 2018 Anxium
+        </div>
+    </section>
+
+    <footer class="footer text-center py-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <p class="m-0">Theme by Anxium</p>
+                </div>
+                <div class="col-md-2 offset-2 d-flex justify-content-around align-items-center">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i class="fab fa-github-square fa-2x"></i>
+                </div>
+                <div class="col-md-3 offset-2 d-flex align-items-center justify-content-center">
+                    <p class="m-0">&copy; Copyright 2018 Anxium</p>
+                </div>
             </div>
         </div>
     </footer>
