@@ -67,6 +67,9 @@ nav {
   object-fit: cover; }
 
 @media screen and (max-width: 768px) {
+  .subtitle {
+    display: none; }
+
   .jumbotron .logo {
     text-align: center; }
     .jumbotron .logo .title1 {
@@ -74,6 +77,9 @@ nav {
       border: none;
       border-radius: none;
       padding: 0 !important; }
+
+  .citation {
+    min-height: 661px; }
 
   .menu {
     display: flex;

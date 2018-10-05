@@ -94,6 +94,10 @@ nav {
 
 @media screen and (max-width: 768px) {
     // Index html
+    .subtitle {
+        display: none;
+    }
+    
     .jumbotron {
         .logo {
             text-align: center;
@@ -104,6 +108,10 @@ nav {
                 padding: 0!important;
             }
         }
+    }
+
+    .citation {
+        min-height: 661px;
     }
 
     // Menu html
