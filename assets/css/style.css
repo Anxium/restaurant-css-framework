@@ -22,17 +22,6 @@ nav {
     border: 5px solid #fff;
     border-radius: 50%; }
 
-.service {
-  font-family: sans-serif; }
-  .service h2 {
-    margin: 20px 0;
-    text-align: center; }
-  .service .img {
-    display: block;
-    filter: sepia(60%); }
-  .service .text-right {
-    text-align: right; }
-
 .citation {
   background: url("../img/slide3.jpg");
   background-size: cover;
